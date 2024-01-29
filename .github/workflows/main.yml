@@ -21,4 +21,4 @@ jobs:
         run: pip install lizard
 
       - name: Run Lizard
-        run: lizard . --cyclomatic 3
+        run: lizard . --CCN 3
